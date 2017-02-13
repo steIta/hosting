@@ -33,8 +33,8 @@ app.use(auth.checklogin);
 
 
 
-app.use('/theme', express.static('client/theme'));
-<!--app.use('/node_modules', express.static('node_modules'));-->
+/*app.use('/theme', express.static('client/theme'));
+app.use('/node_modules', express.static('node_modules'));*/
 app.set('port', config.port);
 
 global.dirClient = __dirname + '/client';
